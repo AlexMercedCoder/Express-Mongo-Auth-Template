@@ -5,7 +5,7 @@ const TodoSchema = new Schema({
     username: {type: String, required: true},
     value: {type: String, required: true},
     dueDate: {type: Date, required: true},
-    reminderDate: {type: String, required: true},
+    reminderDate: {type: Date, required: true},
     completed: {type: Boolean, required: true, default: false}
 })
 
